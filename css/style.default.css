@@ -71,6 +71,7 @@ button i.fa {
 .text-uppercase {
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  color: black;
 }
 @media (max-width: 991px) {
   .text-center-sm {
@@ -645,7 +646,7 @@ fieldset[disabled] .btn-template-transparent-primary.active {
 .btn-template-transparent-black {
   color: #ffffff;
   background-color: transparent;
-  border-color: #ffffff;
+  border-color: #f36;
 }
 .btn-template-transparent-black:hover,
 .btn-template-transparent-black:focus,
@@ -1774,7 +1775,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 .bar.background-image-fixed-2 {
-  background: url('../img/fixed-background-2.jpg') center top no-repeat;
+  /*background: url('../img/fixed-background-2.jpg') center top no-repeat;*/
   background-attachment: fixed;
   background-size: cover;
 }
@@ -1804,10 +1805,10 @@ fieldset[disabled] .btn-template-primary.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000;
-  opacity: 0.3;
-  filter: alpha(opacity=30);
-}
+  background: white;
+  /*opacity: 0.3;*/
+/*  filter: alpha(opacity=30);
+*/}
 .portfolio.no-space {
   padding: 0 15px;
 }
